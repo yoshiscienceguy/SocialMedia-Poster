@@ -23,4 +23,4 @@ Session(app)
 
 
 from . import main
-app.register_blueprint(main.eApp)
+app.register_blueprint(main.app)
