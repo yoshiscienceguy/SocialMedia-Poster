@@ -82,3 +82,5 @@ def getMembershipsTable():
 @eApp.route('/<studentURLHandle>')
 def fetchStudent(studentURLHandle):
     return flask.render_template("/index.html")
+
+
